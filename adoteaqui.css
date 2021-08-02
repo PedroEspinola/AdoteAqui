@@ -1,0 +1,139 @@
+body {
+    background: url(ossinho.png);
+}
+.container{
+    display: flex;
+    background-color: #b9b3b3;
+    justify-content: space-between;
+}
+
+.titulo{
+    padding: 0 20px;
+    color: rgb(250 208 0);
+    background-color: #b9b3b3;
+    text-transform: uppercase;
+}
+
+.titulo:hover {
+    
+    color:#afd621;
+}
+
+.titulo:active {
+    text-decoration: underline;
+}
+
+.menu{
+    display: flex;
+    justify-items: self-end;
+    background-color: #7de6e6;
+    text-transform: uppercase;
+}
+
+.menu:active {
+    text-decoration: underline;
+}
+
+.itens{
+    padding: 0 20px;
+}
+
+.itens:hover {
+    transform: scale(1.25);  
+    color:purple;
+}
+
+.caesegatos {                          
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.imagem {    
+    height: 190px;
+    width: 190px;
+    border: 2px solid #000000;
+    margin: 50px 1.5%;
+    size: 50px;
+}
+
+.imagem:hover {
+    border:3px dotted green;   
+    height: 200px;
+    width: 200px;
+    border-image: auto;
+}
+
+footer{
+    display: flex;
+    text-align: center;
+    padding: 10px 0;
+    background-color:#b9b3b3;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imgRodape{
+    width: 150px;
+}
+
+
+.rodapet {
+    color: #000000;
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+
+@media (max-width: 700px){
+    
+    .caesegatos {                          
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 20px auto;
+    }
+    
+    .imagem {    
+        height: 150px;
+        width: 150px;
+        border: 2px solid #000000;
+        margin: 50px 1.5%;
+        size: 50px;
+    }
+    
+    .imagem:hover {
+        border:3px dotted green;   
+        height: 200px;
+        width: 200px;
+        border-image: auto;
+    }
+    
+    footer{
+        display: flex;
+        text-align: center;
+        padding: 10px 0;
+        background-color:#b9b3b3;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .imgRodape{
+        width: 120px;
+    }
+    
+    
+    .rodapet {
+        color: #000000;
+        margin: 10px 0;
+        font-size: 14px;
+    }
+    
+}
+
